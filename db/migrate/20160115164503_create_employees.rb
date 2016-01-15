@@ -1,6 +1,6 @@
-class CreateTestmodles < ActiveRecord::Migration
+class CreateEmployees < ActiveRecord::Migration
   def change
-    create_table :testmodles do |t|
+    create_table :employees do |t|
       t.string :name
       t.string :title
 
